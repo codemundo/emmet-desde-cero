@@ -22,5 +22,81 @@
 <!-- Texto {} -->
 
 <!-- Nombres implícitos de etiquetas -->
+<!-- .nombreClase#nombreId -->
+<div class="nombreClase" id="nombreId"></div>
+
+<!--
+    -> ul o ol -> li
+    -> table, thead, tbody y tfoot -> tr
+    -> tr -> td
+    -> select, optgroup -> option
+    -> p, a -> span
+-->
+<!-- ul>.item*3 -->
+<ul>
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+</ul>
+
+<!-- ol>.item*3 -->
+<ol>
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+</ol>
+
+<!-- table>#fila1 -->
+<table>
+    <tr id="fila1"></tr>
+</table>
+
+<!-- table>thead>.fila -->
+<table>
+    <thead>
+        <tr class="fila"></tr>
+    </thead>
+</table>
+
+<!-- table>tbody>.fila -->
+<table>
+    <tbody>
+        <tr class="fila"></tr>
+    </tbody>
+</table>
+
+<!-- table>tfoot>.fila -->
+<table>
+    <tfoot>
+        <tr class="fila"></tr>
+    </tfoot>
+</table>
+
+<!-- table>tfoot>.fila>.celda -->
+<table>
+    <tfoot>
+        <tr class="fila">
+            <td class="celda"></td>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- select>#opcion1 -->
+<select name="" id="">
+    <option id="opcion1"></option>
+</select>
+
+<!-- select>optgroup>.opcion -->
+<select name="" id="">
+    <optgroup label="">
+        <option class="opcion"></option>
+    </optgroup>
+</select>
+
+<!-- p>.span -->
+<p><span class="span"></span></p>
+
+<!-- a>#span -->
+<a href=""><span id="span"></span></a>
 
 <!-- Generador Lorem Ipsum -->
