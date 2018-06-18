@@ -1,26 +1,123 @@
-<!-- Genera la estructura inicial de un documento html 5 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto final - Emmet desde cero</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Logotipo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#content-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="content-navbar">
+           <ul class="navbar-nav mr-auto">
+               <li class="nav-item"><a href="#" class="nav-link">Opción 1</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Opción 2</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Opción 3</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Opción 4</a></li>
+           </ul>
+           <form action="" class="form-inline my-2 my-lg-0">
+               <input type="text" class="form-control mr-sm-2" placeholder="Buscar">
+               <button class="btn my-2 my-sm-0 btn-light">Buscar</button>
+           </form>
+        </div>
+    </nav>
+    <header class="container mt-5 pt-5">
+        <h1 class="h2">Blog sobre programación y desarrollo  web en español.</h1>
+        <h2 class="h5">¿Estás buscando artículos sobre desarrollo web y programación?</h2>
+        <div class="card my-3 ">
+            <img class="card-img-top" src="/img/articulo_principal.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer d-md-flex justify-content-between">
+                <a href="#" class="d-block d-md-inline">Leer más...</a>
+                <small class="text-muted">Publicado hace 1 hora</small>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <h2>Todos los artículos</h2>
+        <div class="card-deck">
+            <div class="card mb-2">
+                <img src="/img/articulo_1.png" alt="Imagen del artículo" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="h5 cart-title">Título del artículo</h3>
+                    <p class="cart-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dignissimos mollitia inventore autem, repudiandae voluptatum voluptates maiores accusamus quam fuga!</p>
+                </div>
+                <div class="card-footer d-md-flex justify-content-between"><a href="#" class="d-block d-md-inline">Leer más...</a><small>Publicado hace 1 días</small></div>
+            </div>
+            <div class="card mb-2">
+                <img src="img/articulo_2.png" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="h5 cart-title">Título del artículo</h3>
+                    <p class="cart-text">Vero qui iusto laudantium, unde expedita quidem libero quo! Non animi numquam provident quae in cumque. Exercitationem, reprehenderit similique tempora.</p>
+                </div>
+                <div class="card-footer d-md-flex justify-content-between"><a href="#" class="d-block d-md-inline">Leer más...</a><small>Publicado hace 2 días</small></div>
+            </div>
+            <div class="card mb-2">
+                <img src="img/articulo_3.png" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="h5 cart-title">Título del artículo</h3>
+                    <p class="cart-text">Maxime incidunt distinctio aliquid fugit cupiditate dignissimos, unde, saepe eius ad reprehenderit dolor praesentium inventore labore. At, aliquid necessitatibus quis!</p>
+                </div>
+                <div class="card-footer d-md-flex justify-content-between"><a href="#" class="d-block d-md-inline">Leer más...</a><small>Publicado hace 3 días</small></div>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card mb-2">
+                <img src="img/articulo_4.png" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="h5 cart-title">Título del artículo</h3>
+                    <p class="cart-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quia earum officia consequatur doloremque, possimus quaerat provident impedit quod eius?</p>
+                </div>
+                <div class="card-footer d-md-flex justify-content-between"><a href="#" class="d-block d-md-inline">Leer más...</a><small>Publicado hace 4 días</small></div>
+            </div>
+            <div class="card mb-2">
+                <img src="img/articulo_5.png" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="h5 cart-title">Título del artículo</h3>
+                    <p class="cart-text">Praesentium veniam quisquam doloribus non vero exercitationem, quas quam. Quia reprehenderit quis nostrum at dolorem veritatis, odit facilis voluptatibus et?</p>
+                </div>
+                <div class="card-footer d-md-flex justify-content-between"><a href="#" class="d-block d-md-inline">Leer más...</a><small>Publicado hace 5 días</small></div>
+            </div>
+            <div class="card mb-2">
+                <img src="img/articulo_6.png" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="h5 cart-title">Título del artículo</h3>
+                    <p class="cart-text">Dolorem molestiae dicta unde, velit libero suscipit dolor itaque cum, amet animi. Velit quos ab error, unde dolor! Dolores, non!</p>
+                </div>
+                <div class="card-footer d-md-flex justify-content-between"><a href="#" class="d-block d-md-inline">Leer más...</a><small>Publicado hace 6 días</small></div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="text-white">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-white">Et ea accusantium, a cupiditate.</p>
+                    <p class="text-white">Eum tempore, cupiditate. Distinctio, voluptates.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-white">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-white">Ea impedit repudiandae dolores id.</p>
+                    <p class="text-white">Ullam eum, amet corporis dolorum!</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-white">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-white">Voluptate repudiandae a, quod ratione?</p>
+                    <p class="text-white">Consequuntur ab velit possimus quibusdam.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<!-- Operador de anidamiento ( > ) -->
-
-<!-- Operador hermano ( + ) -->
-
-<!-- Subir niveles ( ^ ) -->
-
-<!-- Operador de multiplicación ( * ) -->
-
-<!-- Agrupamiento () -->
-
-<!-- Operadores de atributos -->
-<!-- id -->
-
-<!-- clase -->
-
-<!-- Atributos personalizados -->
-
-<!-- Numeración ( $ ) -->
-
-<!-- Texto {} -->
-
-<!-- Nombres implícitos de etiquetas -->
-
-<!-- Generador Lorem Ipsum -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
